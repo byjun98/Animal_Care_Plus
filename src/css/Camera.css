@@ -1,0 +1,154 @@
+.CameraContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CameraLogo{
+    
+    margin-top: 10%;
+    width: 50%;
+}
+.CameraLogo img {
+    width: 50%;
+    padding: 10%;
+    border: 5px solid #e84f13;
+    border-radius: 30px;
+}
+.PhotoUpload{
+    width: 100%;
+}
+.CameraButton {
+    background-color: #e84f13;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.CameraButtonContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 17%;
+}
+
+.CameraContainer {
+    opacity: 0;
+
+}
+
+.CameraContainer.active {
+    opacity: 1;
+    transition: all 0.6s;
+}
+.UploadPhotoSee>img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(226, 224, 224);
+    margin-top: 13%;
+    border-radius: 20px;
+
+}
+
+
+
+.CameraMainTopNav {
+    padding: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    border-radius: 0 0 35px 35px;
+    transition: all 0.5s;
+}
+
+.CameraActive {
+    height: 720px;
+}
+.UploadPhotoSeeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 좌우 가운데 정렬을 위해 사용 */
+    align-items: center; /* 수직 가운데 정렬을 위해 사용 */
+    height: 100%; /* 부모 요소의 높이를 차지하기 위해 사용 */
+}
+
+.UploadPhotoSee {
+    max-width: 350px; /* 최대 너비 설정 */
+    text-align: center; /* 내부 요소를 가운데 정렬하기 위해 사용 */
+}
+.UploadPhotoSeeContainer > p{
+    font-size: 17px;
+}
+.visual-drop-area{
+    width: 150px;
+}
+/* Add this CSS in your CSS file */
+
+.modal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+<<<<<<< HEAD
+    height: 100px; /* height set for the p elements to show in fixed size */
+=======
+    font-size: 15px;
+    border-radius: 15px;
+    height: 300px; /* height set for the p elements to show in fixed size */
+>>>>>>> test3
+    overflow: hidden;
+  }
+  
+  .modal-content p {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+<<<<<<< HEAD
+=======
+    padding-top: 240px;
+    margin: 10px;
+>>>>>>> test3
+  }
+  
+  .modal-content p.active {
+    opacity: 1;
+<<<<<<< HEAD
+=======
+  }
+  .modal-content > span{
+    font-size: 20px;
+    color: #e84f13;
+  
+>>>>>>> test3
+  }
