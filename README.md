@@ -14,7 +14,7 @@ React · Kakao Maps SDK · Uploadcare · GPT API · Spring Boot · TensorFlow
 
 ---
 
-## 📋 목차
+## 목차
 
 - [프로젝트 소개](#-프로젝트-소개)
 - [시연 영상](#-시연-영상)
@@ -35,7 +35,7 @@ React · Kakao Maps SDK · Uploadcare · GPT API · Spring Boot · TensorFlow
 
 ---
 
-## 🎯 프로젝트 소개
+## 프로젝트 소개
 
 AniCare Plus는 반려동물 보호자를 위한 **통합 케어 플랫폼**입니다.
 
@@ -53,7 +53,7 @@ AniCare Plus는 반려동물 보호자를 위한 **통합 케어 플랫폼**입�
 
 ---
 
-## 🎬 시연 영상
+## 시연 영상
 
 <div align="center">
 
@@ -67,7 +67,7 @@ AniCare Plus는 반려동물 보호자를 위한 **통합 케어 플랫폼**입�
 
 ---
 
-## 🏗 시스템 아키텍처
+## 시스템 아키텍처
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -647,7 +647,7 @@ style={{ width: `${gagebars.gagebar1}%`, transition: "width 1s ease-in-out" }}
 
 ---
 
-## 👨 담당 역할
+## 담당 역할
 
 ### 프론트엔드 (주 담당)
 
