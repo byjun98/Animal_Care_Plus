@@ -1,0 +1,16 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'board'.
+> Could not open cp_proj generic class cache for build file 'C:\Users\jam67\Desktop\시연자료\애케플\animalcareplus-backend\build.gradle' (C:\Users\jam67\.gradle\caches\7.6\scripts\7w65w6b8racea65owea2hrate).
+   > BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 65
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s

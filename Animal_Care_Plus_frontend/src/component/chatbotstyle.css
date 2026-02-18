@@ -1,0 +1,48 @@
+.chatDiv, .inputContainer {
+    padding: 3%;
+    margin-top: 20px;
+}
+
+.message {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+    border: 2px solid #e84f13;
+    font-weight: bold;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputContainer input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #e84f13;
+    font-weight: bold;
+}
+
+.inputContainer button {
+    width: 20%;
+    background-color: #e84f13;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.inputContainer button:hover {
+    background-color: #cc3d0f;
+}
+
+.loadingMessage {
+    color: #e84f13;
+    font-style: italic;
+}

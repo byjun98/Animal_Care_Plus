@@ -1,0 +1,216 @@
+.GridContainer {
+    padding: 3%;
+    margin-top: 35px;
+
+}
+
+.GridContainer button {
+    width: 70%;
+    height: 25px;
+    padding: 0;
+    border-radius: 7px;
+    background-color: white;
+    border: 2px solid #e84f13;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.GridContainernum {
+    padding: 3%;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    /* 수평 가운데 정렬 */
+
+}
+
+.GridContainernum button {
+    width: 70%;
+    height: 25px;
+    padding: 0;
+
+    border-radius: 7px;
+    background-color: white;
+    border: 2px solid #e84f13;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.react-datepicker-ignore-onclickoutside {
+    background-color: #e84f13;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.react-datepicker__input-container>input {
+    text-align: center;
+    height: 23px;
+    border-radius: 7px;
+    border: 2px solid #e84f13;
+    font-weight: 600;
+
+}
+.VaccinButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.VaccinButton {
+    background-color: #e84f13;
+    width: 232px;
+    height: 51px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+
+}
+
+.vaccinselect {
+    font-size: 10px;
+    color: black;
+}
+
+.VaccinSelected {
+    background-color: #e84f13 !important;
+    color: white;
+    transition: all 0.5s;
+}
+
+.react-datepicker__triangle {
+    margin-bottom: 30px;
+}
+
+.react-datepicker__month-container {
+
+    font-weight: 700;
+}
+
+.react-datepicker__header {
+    font-size: 20px;
+
+}
+
+.react-datepicker__day-names {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.react-datepicker__day-name {
+    padding: 5px;
+}
+
+.react-datepicker__week {
+    margin: 5px;
+}
+
+.react-datepicker__day {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.vaccinMod {
+    opacity: 0;
+    height: 620px;
+    width: 80%;
+    z-index: -5;
+    transition: all 0.2s ease;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.vaccinMod.active {
+    opacity: 1;
+    height: 580px;
+    width: 80%;
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #9f9f9f;
+
+}
+
+.vaccinModButton {
+    width: 30%;
+    height: 30px;
+    padding: 0;
+    border-radius: 7px;
+    background-color: #e84f13;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    position: fixed;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+
+}
+@font-face {
+    font-family: 'BagelFatOne-Regular';
+    src: url('/src/font/BagelFatOne-Regular.ttf') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+.vaccinModTop {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'BagelFatOne-Regular'!important;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    color: #e84f13;
+}
+.vaccinModTitle{
+    background-color: #e84f13;
+    color: white;
+    width: 40%;
+    border-radius: 8px;
+    margin: 5%;
+    font-size: 17px!important;
+    padding: 5px;
+}
+.Vaccinpage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Vaccinpage > p {
+    /* 다른 스타일들과 충돌하지 않도록 필요한 경우 여기에 추가합니다. */
+    text-align: center; /* 가운데 정렬 */
+    font-weight: 100!important;
+    /* background-color: #e84f13; */
+    border-radius: 10px;
+    color: rgb(39, 37, 37);
+    font-size: 15px;
+    width: 60%;
+    line-height: 35px;
+    height: 35px; /* 너비 지정 */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+    margin-right: auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+}
+.GridContainernum{
+padding-top: 0;
+}
+.css-qwfiov-MuiGrid-root>.MuiGrid-item {
+    padding-top: 13px!important;
+}
