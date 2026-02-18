@@ -45,11 +45,11 @@ AniCare Plus는 반려동물 보호자를 위한 **통합 케어 플랫폼**입�
 
 | 기능        | 스크린샷                            | 핵심 기술                                 |
 | --------- | ------------------------------- | ------------------------------------- |
-| **AI 분석** | ![AI 분석](./assets/ai.png)       | Uploadcare 이미지 파이프라인, 상태 머신 기반 로딩 UX  |
-| **카카오맵**  | ![카카오맵](./assets/kakao_map.png) | Geolocation → Places API 연계, 반경 기반 검색 |
-| **접종 관리** | ![접종](./assets/vaccination.png) | 날짜 연산 알고리즘, 접종 데이터 룩업 테이블             |
-| **챗봇**    | ![챗봇](./assets/chatbot.png)     | AI 결과 → GPT 프롬프트 동적 생성, 스트리밍 UI       |
-| **상점**    | ![상점](./assets/shop.png)        | 실시간 필터 검색, MUI Grid 반응형 레이아웃          |
+| **AI 분석** | ![AI 분석](../assets/ai.png)       | Uploadcare 이미지 파이프라인, 상태 머신 기반 로딩 UX  |
+| **카카오맵**  | ![카카오맵](../assets/kakao_map.png) | Geolocation → Places API 연계, 반경 기반 검색 |
+| **접종 관리** | ![접종](../assets/vaccination.png) | 날짜 연산 알고리즘, 접종 데이터 룩업 테이블             |
+| **챗봇**    | ![챗봇](../assets/chatbot.png)     | AI 결과 → GPT 프롬프트 동적 생성, 스트리밍 UI       |
+| **상점**    | ![상점](../assets/shop.png)        | 실시간 필터 검색, MUI Grid 반응형 레이아웃          |
 
 ---
 
@@ -151,7 +151,7 @@ AniCare Plus는 반려동물 보호자를 위한 **통합 케어 플랫폼**입�
 <details>
 <summary><b> 기술 상세 펼치기</b></summary>
 
-![카카오맵](./assets/kakao_map.png)
+![카카오맵](../assets/kakao_map.png)
 
 #### 왜 이렇게 설계했는가
 
@@ -261,7 +261,7 @@ const isMobile = useMediaQuery({ maxWidth: 768 });
 <details>
 <summary><b> 기술 상세 펼치기</b></summary>
 
-![접종 관리](./assets/vaccination.png)
+![접종 관리](../assets/vaccination.png)
 
 #### 왜 이렇게 설계했는가
 
@@ -330,8 +330,8 @@ const formattedDateObject = selectedVaccinData
 <details>
 <summary><b> 기술 상세 펼치기</b></summary>
 
-![AI 분석](./assets/ai.png)
-![챗봇](./assets/chatbot.png)
+![AI 분석](../assets/ai.png)
+![챗봇](../assets/chatbot.png)
 
 #### 전체 데이터 흐름
 

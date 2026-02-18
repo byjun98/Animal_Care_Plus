@@ -1,0 +1,4 @@
+# Jupyter Notebook 파일을 GitHub 언어 통계에서 제외
+# .ipynb 파일은 JSON 기반으로 셀 아웃풋(이미지, 로그)이 base64로 인코딩되어
+# 실제 코드량 대비 파일 크기가 비정상적으로 커짐 → 언어 비율 왜곡
+*.ipynb linguist-vendored
